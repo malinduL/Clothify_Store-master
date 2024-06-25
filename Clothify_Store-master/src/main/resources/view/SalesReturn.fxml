@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.control.TreeTableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.SalesReturnController">
+   <children>
+      <ImageView fitHeight="808.0" fitWidth="1255.0" layoutX="-10.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/2.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#ffffff82" height="739.0" layoutX="33.0" layoutY="33.0" stroke="BLACK" strokeType="INSIDE" width="1176.0" />
+      <JFXButton layoutX="73.0" layoutY="53.0" onAction="#BackbtnSalesReturnForm" prefHeight="46.0" prefWidth="144.0" style="-fx-background-color: black;" text="  Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="778.0" layoutY="59.0" prefHeight="46.0" prefWidth="144.0" style="-fx-background-color: black;" text="Clear" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="985.0" layoutY="59.0" prefHeight="46.0" prefWidth="144.0" style="-fx-background-color: black;" text="Save" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="28.0" fitWidth="41.0" layoutX="83.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/Vector.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="898.0" layoutY="693.0" prefHeight="46.0" prefWidth="211.0" style="-fx-background-color: black;" text="Place Return" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </JFXButton>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d4d4d44d" height="69.0" layoutX="61.0" layoutY="677.0" stroke="TRANSPARENT" strokeType="INSIDE" width="453.0" />
+      <Text layoutX="71.0" layoutY="723.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Price  :  " wrappingWidth="190.67003631591797">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <Text fill="RED" layoutX="250.0" layoutY="723.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rs.1200.00" wrappingWidth="246.1367416381836">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <TreeTableView layoutX="53.0" layoutY="265.0" prefHeight="366.0" prefWidth="1138.0">
+        <columns>
+          <TreeTableColumn prefWidth="91.19999313354492" text="Item Code" />
+          <TreeTableColumn prefWidth="179.2000274658203" text="Description" />
+            <TreeTableColumn prefWidth="88.53338623046875" text="Qty" />
+            <TreeTableColumn prefWidth="139.73330688476562" text="Unit Price" />
+            <TreeTableColumn prefWidth="154.13330078125" text="Data" />
+            <TreeTableColumn prefWidth="109.5999755859375" text="Discount %" />
+            <TreeTableColumn prefWidth="87.46673583984375" text="Type" />
+            <TreeTableColumn prefWidth="98.13330078125" text="Size" />
+            <TreeTableColumn prefWidth="104.53326416015625" text="Amount" />
+            <TreeTableColumn prefWidth="89.0665283203125" text="Option" />
+        </columns>
+      </TreeTableView>
+   </children>
+</AnchorPane>

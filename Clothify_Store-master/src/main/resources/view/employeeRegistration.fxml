@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="764.0" prefWidth="1195.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.EmployeeController">
+   <children>
+      <ImageView fitHeight="788.0" fitWidth="1206.0" layoutY="-4.0" pickOnBounds="true">
+         <image>
+            <Image url="@../img/2.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#fffcf187" height="308.0" layoutX="12.0" layoutY="130.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1183.0" />
+      <JFXButton layoutX="55.0" layoutY="59.0" onAction="#backbtnEmployeeform" prefHeight="37.0" prefWidth="179.0" style="-fx-background-color: black;" styleClass="#3a4dc7" text="    Back">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.8578199052132701" startX="0.35071090047393366" startY="0.4454976303317536">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.029999999329447746" green="1.0" blue="0.17550000548362732" opacity="0.536796510219574" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.16151202749140892">
+                     <color>
+                        <Color red="0.75" green="0.4724999964237213" blue="0.5084352493286133" opacity="0.8700000047683716" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.29553264604810997">
+                     <color>
+                        <Color red="0.029999999329447746" green="0.3510071933269501" blue="1.0" opacity="0.5400000214576721" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.40893470790378006">
+                     <color>
+                        <Color red="0.7894737124443054" green="0.062134504318237305" blue="0.1591130644083023" opacity="0.8700000047683716" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.4948453608247423">
+                     <color>
+                        <Color red="0.2280000001192093" green="0.35413333773612976" blue="0.4000000059604645" opacity="0.8700000047683716" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.6563573883161511">
+                     <color>
+                        <Color red="0.2280000001192093" green="0.3517410159111023" blue="0.4000000059604645" opacity="0.8700000047683716" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.7800687285223369">
+                     <color>
+                        <Color red="0.46875" green="0.75" blue="0.5765625238418579" opacity="0.8700000047683716" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.8316151202749141">
+                     <color>
+                        <Color red="0.7799999713897705" green="0.06239999830722809" blue="0.15807999670505524" opacity="0.8700000047683716" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </JFXButton>
+      <ImageView fitHeight="25.0" fitWidth="63.0" layoutX="86.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/Vector.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="73.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Employee ID *  :" wrappingWidth="153.33665466308594">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="73.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name *            :" wrappingWidth="153.33665466308585">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="73.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NIC *                :" wrappingWidth="160.00249862670898">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="73.0" layoutY="352.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address *         :" wrappingWidth="160.0024986267089">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <JFXTextField layoutX="234.0" layoutY="160.0" prefHeight="40.0" prefWidth="284.0" promptText="   EMP-0001">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField layoutX="234.0" layoutY="219.0" prefHeight="40.0" prefWidth="284.0" promptText="   Employer name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField layoutX="234.0" layoutY="271.0" prefHeight="40.0" prefWidth="284.0" promptText="   Employer NIC">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField layoutX="234.0" layoutY="323.0" prefHeight="40.0" prefWidth="284.0" promptText="   Employer address">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <Text layoutX="552.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bank account number *  :" wrappingWidth="235.19999999999982">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="552.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact *                         :" wrappingWidth="245.0024986267089">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="552.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bank branch name *        :" wrappingWidth="254.39999999999998">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <JFXTextField layoutX="789.0" layoutY="218.0" prefHeight="40.0" prefWidth="386.0" promptText="   Employer phone number">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField layoutX="792.0" layoutY="257.0" prefHeight="40.0" prefWidth="386.0" promptText="   xxxx  -  xxxx  -  xxxx">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField layoutX="792.0" layoutY="323.0" prefHeight="40.0" prefWidth="386.0" promptText="   Branch name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <Text layoutX="552.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date of birth *                 :" wrappingWidth="276.33665466308594">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <JFXTextField layoutX="789.0" layoutY="175.0" prefHeight="40.0" prefWidth="386.0" promptText="   YYYY - MM -DD">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton layoutX="825.0" layoutY="380.0" onAction="#ClearbtnEmployeeform" prefHeight="4.0" prefWidth="123.0" style="-fx-background-color: black;" styleClass="#3a4dc7" text="Clear">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.4143646408839779" centerY="0.5568720379146919" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.16838487972508592">
+                     <color>
+                        <Color red="1.0" green="0.2916666567325592" blue="0.15000000596046448" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.3402061855670103">
+                     <color>
+                        <Color red="0.611427903175354" green="0.9078947305679321" blue="0.5211988091468811" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.6288659793814433">
+                     <color>
+                        <Color red="0.6101999878883362" green="0.8999999761581421" blue="0.5220000147819519" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.7560137457044673">
+                     <color>
+                        <Color red="0.22745098173618317" green="0.3019607961177826" blue="0.7803921699523926" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.22619999945163727" green="0.3018992841243744" blue="0.7799999713897705" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </JFXButton>
+      <JFXButton layoutX="982.0" layoutY="380.0" onAction="#SavebtnEmployeeform" prefHeight="4.0" prefWidth="123.0" style="-fx-background-color: black;" text="Save">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.4143646408839779" centerY="0.5568720379146919" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.16838487972508592">
+                     <color>
+                        <Color red="1.0" green="0.2916666567325592" blue="0.15000000596046448" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.3402061855670103">
+                     <color>
+                        <Color red="0.611427903175354" green="0.9078947305679321" blue="0.5211988091468811" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.6288659793814433">
+                     <color>
+                        <Color red="0.6101999878883362" green="0.8999999761581421" blue="0.5220000147819519" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.7560137457044673">
+                     <color>
+                        <Color red="0.22745098173618317" green="0.3019607961177826" blue="0.7803921699523926" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.22619999945163727" green="0.3018992841243744" blue="0.7799999713897705" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </JFXButton>
+      <TableView layoutX="8.0" layoutY="454.0" prefHeight="308.0" prefWidth="1173.0">
+        <columns>
+          <TableColumn prefWidth="100.79996681213379" text="ID" />
+            <TableColumn prefWidth="180.5333251953125" text="NAME" />
+            <TableColumn prefWidth="169.59991455078125" text="NIC" />
+            <TableColumn prefWidth="163.73330688476562" text="DOB" />
+            <TableColumn prefWidth="163.466552734375" text="ADDRESS" />
+            <TableColumn prefWidth="154.39990234375" text="CONTACT" />
+            <TableColumn prefWidth="127.20001220703125" text="BANK BRANCH" />
+            <TableColumn prefWidth="121.5999755859375" text="Option" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

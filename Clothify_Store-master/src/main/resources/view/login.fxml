@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.LoginFormController">
+   <children>
+      <ImageView fitHeight="808.0" fitWidth="1250.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/1.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#ffffff71" height="728.0" layoutX="634.0" layoutY="32.0" stroke="#00000061" strokeType="INSIDE" width="552.0" />
+      <Text fill="#0358ff" layoutX="690.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clothify Store" textAlignment="CENTER" wrappingWidth="414.0">
+         <font>
+            <Font name="Harrington" size="66.0" />
+         </font>
+      </Text>
+      <Text fill="#181818" layoutX="817.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login Here" textAlignment="CENTER" wrappingWidth="168.0035400390625">
+         <font>
+            <Font name="Harrington" size="30.0" />
+         </font>
+      </Text>
+      <JFXButton layoutX="805.0" layoutY="587.0" onAction="#loginbtnLoginform" prefHeight="35.0" prefWidth="183.0" style="-fx-background-color: black;" text="Login" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </JFXButton>
+      <Text layoutX="648.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Name  *" wrappingWidth="188.53662109375">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="649.0" layoutY="404.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password  *" wrappingWidth="188.53662109375">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <JFXTextField layoutX="695.0" layoutY="317.0" prefHeight="38.0" prefWidth="426.0" promptText="    Enter Your Name">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton layoutX="965.0" layoutY="475.0" onAction="#forgotpassLoginform" prefHeight="45.0" prefWidth="159.0" style="-fx-background-color: black;" text="Forgot password " textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField layoutX="696.0" layoutY="421.0" prefHeight="38.0" prefWidth="427.0" promptText="    Enter Your Password">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </JFXTextField>
+      <ImageView fitHeight="30.0" fitWidth="37.0" layoutX="188.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="30.0" fitWidth="37.0" layoutX="1085.0" layoutY="426.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/show-solid-24 1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="646.0" layoutY="324.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/user (1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="37.0" layoutX="646.0" layoutY="427.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/lock.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="805.0" layoutY="672.0" onAction="#signupbtnLoginform" prefHeight="50.0" prefWidth="184.0" style="-fx-background-color: black;" text="Sign Up" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

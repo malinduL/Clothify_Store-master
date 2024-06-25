@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.registrationController">
+   <children>
+      <ImageView fitHeight="808.0" fitWidth="1250.0" layoutX="-13.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/1.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#ffffff70" height="742.0" layoutX="267.0" layoutY="34.0" stroke="TRANSPARENT" strokeType="INSIDE" width="937.0" />
+      <Text layoutX="501.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registration  Form" wrappingWidth="367.73663330078125">
+         <font>
+            <Font name="Bernard MT Condensed" size="49.0" />
+         </font>
+      </Text>
+      <Text layoutX="317.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin username  *  :" wrappingWidth="199.20343017578125">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="314.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin username  *  :" wrappingWidth="199.20343017578125">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <JFXTextField alignment="CENTER" layoutX="520.0" layoutY="115.0" prefHeight="26.0" prefWidth="376.0" promptText="Enter admin username ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField alignment="CENTER" layoutX="519.0" layoutY="158.0" prefHeight="26.0" prefWidth="376.0" promptText="Enter admin password ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <ImageView fitHeight="37.0" fitWidth="46.0" layoutX="853.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/show-solid-24 1.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="326.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OTP    :" wrappingWidth="75.80250549316418">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="324.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New username   :" wrappingWidth="164.00335693359375">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="324.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email   :" wrappingWidth="75.80250549316418">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="324.0" layoutY="435.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password   :" wrappingWidth="114.936767578125">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="321.0" layoutY="488.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirm password  :" wrappingWidth="186.40338134765625">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="320.0" layoutY="599.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NIC   :" wrappingWidth="63.73675537109375">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="322.0" layoutY="651.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address   :" wrappingWidth="101.07000732421875">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="321.0" layoutY="545.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone number   :" wrappingWidth="165.07012939453125">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <JFXTextField alignment="CENTER" layoutX="404.0" layoutY="240.0" prefHeight="40.0" prefWidth="261.0" promptText="Enter OTP Here  * * * *">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton layoutX="762.0" layoutY="695.0" onAction="#BackbtnRegistrationForm" prefHeight="51.0" prefWidth="166.0" style="-fx-background-color: black; -fx-border-radius: 200;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="25.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="979.0" layoutY="695.0" onAction="#ConfirmbtnRegistrationForm" prefHeight="51.0" prefWidth="166.0" style="-fx-background-color: black;" text="Confirm" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="25.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField layoutX="496.0" layoutY="293.0" prefHeight="40.0" prefWidth="363.0" promptText="Enter your name here" unFocusColor="BLACK">
+         <font>
+            <Font name="Century Schoolbook" size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton layoutX="676.0" layoutY="242.0" prefHeight="38.0" prefWidth="110.0" style="-fx-background-color: black;" text="Send" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="21.0" />
+         </font>
+      </JFXButton>
+      <Text layoutX="854.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Type  :" wrappingWidth="111.00236511230469">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <JFXTextField alignment="CENTER" layoutX="487.0" layoutY="518.0" prefHeight="40.0" prefWidth="363.0" promptText="Enter your number here" unFocusColor="BLACK">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField layoutX="387.0" layoutY="574.0" prefHeight="40.0" prefWidth="363.0" promptText="Enter your NIC  here" unFocusColor="BLACK">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField layoutX="424.0" layoutY="626.0" prefHeight="40.0" prefWidth="363.0" promptText="Enter address here" unFocusColor="BLACK">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField alignment="CENTER" layoutX="442.0" layoutY="409.0" prefHeight="40.0" prefWidth="363.0" promptText="Enter your password here" unFocusColor="BLACK">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField alignment="CENTER" layoutX="511.0" layoutY="462.0" prefHeight="40.0" prefWidth="363.0" promptText="Re-type password" unFocusColor="BLACK">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField alignment="CENTER" layoutX="406.0" layoutY="353.0" prefHeight="40.0" prefWidth="363.0" promptText="Enter your email here" unFocusColor="BLACK">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <ComboBox layoutX="970.0" layoutY="254.0" prefHeight="26.0" prefWidth="161.0" promptText="Select Gender" />
+   </children>
+<!--   <image>-->
+<!--      <Image url="@../img/1.jpg" />-->
+<!--   </image>-->
+</AnchorPane>

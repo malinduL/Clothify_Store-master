@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.SupplierController">
+   <children>
+      <ImageView fitHeight="808.0" fitWidth="1220.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/2.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#ffffff82" height="736.0" layoutX="42.0" layoutY="38.0" stroke="#00000090" strokeType="INSIDE" width="1133.0" />
+      <JFXButton layoutX="78.0" layoutY="52.0" onAction="#BackbtnSupplierForm" prefHeight="48.0" prefWidth="165.0" style="-fx-background-color: black;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="36.0" fitWidth="33.0" layoutX="87.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/Vector.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="76.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Supplier ID*  :" wrappingWidth="167.203369140625">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="75.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Supplier Name*  :" wrappingWidth="175.7366943359375">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="75.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact*  :" wrappingWidth="167.203369140625">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="75.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Company*  :" wrappingWidth="167.203369140625">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="76.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email*  :" wrappingWidth="167.203369140625">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <JFXTextField layoutX="218.0" layoutY="138.0" prefHeight="36.0" prefWidth="263.0" promptText="    Sup-0001">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField layoutX="253.0" layoutY="189.0" prefHeight="36.0" prefWidth="263.0" promptText="    Supplier name">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField layoutX="186.0" layoutY="236.0" prefHeight="36.0" prefWidth="263.0" promptText="    Supplier contact">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField layoutX="203.0" layoutY="281.0" prefHeight="36.0" prefWidth="263.0" promptText="    Supplier company">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField layoutX="164.0" layoutY="329.0" prefHeight="36.0" prefWidth="263.0" promptText="    Supplier Email ">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXTextField>
+      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#e8e19093" height="284.0" layoutX="761.0" layoutY="81.0" stroke="#0000003c" strokeType="INSIDE" width="369.0" />
+      <TableView layoutX="776.0" layoutY="94.0" prefHeight="255.0" prefWidth="335.0">
+        <columns>
+          <TableColumn prefWidth="84.80010986328125" text="Item code" />
+          <TableColumn prefWidth="160.79986572265625" text="Description" />
+            <TableColumn prefWidth="89.06683349609375" text="Qty" />
+        </columns>
+      </TableView>
+      <TableView layoutX="64.0" layoutY="403.0" prefHeight="353.0" prefWidth="1088.0">
+         <columns>
+            <TableColumn prefWidth="130.39996337890625" text="ID" />
+            <TableColumn prefWidth="100.00001525878906" text="Title" />
+            <TableColumn prefWidth="256.5333557128906" text="Name" />
+            <TableColumn prefWidth="289.3333740234375" text="Company" />
+            <TableColumn prefWidth="186.66668701171875" text="Contact" />
+            <TableColumn prefWidth="130.66668701171875" text="Option" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>
