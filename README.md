@@ -1,7 +1,9 @@
-Clothify Store JavaFX POS System
+# Clothify Store JavaFX POS System
 
-Technologies Used
-JavaFX
-Java
-MySQL
-Maven
+## Technologies Used
+
+- JavaFX
+- Java
+- MySQL 
+- Maven
+
