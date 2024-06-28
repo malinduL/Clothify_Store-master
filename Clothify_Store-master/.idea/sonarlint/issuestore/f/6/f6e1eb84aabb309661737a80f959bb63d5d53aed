@@ -1,9 +1,0 @@
-
-n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÈÍôÜùÿÿÿÿ8•ê¶…2
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Şº±Šùÿÿÿÿ8¯ê¶…2
-o	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è´…ûÿÿÿÿ8²ê¶…2
-i	java:S100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒƒÈ08µê¶…2
-j	java:S1007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ïÏ…8ºê¶…2
-o	java:S100A"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë®êˆøÿÿÿÿ8½ê¶…2
-i	java:S100K"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¹C8Àê¶…2
-o	java:S100V"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ôò©ıÿÿÿÿ8Âê¶…2

@@ -1,0 +1,8 @@
+
+–
+java:S1450"URemove the "parent" field and declare it as a local variable in the relevant methods.(ßçÖ’ûÿÿÿÿJ$671cbb81-517d-4e6e-8bb7-7fe1e6072964
+
+java:S1450"TRemove the "scene" field and declare it as a local variable in the relevant methods.(÷‘éÑJ$af24c287-2d05-48fc-b87c-2e909f4f14bd
+•
+java:S1450"TRemove the "stage" field and declare it as a local variable in the relevant methods.(‹ğÑœıÿÿÿÿJ$a16661ad-a754-48c5-ae1a-4af28907629e
+	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÛñ™ÿÿÿÿÿJ$9545d4c1-d317-4b97-b52e-cd4db20fc09d

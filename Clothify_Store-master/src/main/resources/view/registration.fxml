@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import com.jfoenix.controls.JFXButton?>
-<?import com.jfoenix.controls.JFXTextField?>
-<?import javafx.scene.control.ComboBox?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.shape.Rectangle?>
-<?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Text?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.registrationController">
+<AnchorPane prefHeight="400.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controllers.registrationController">
    <children>
       <ImageView fitHeight="808.0" fitWidth="1250.0" layoutX="-13.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -22,6 +20,47 @@
          <font>
             <Font name="Bernard MT Condensed" size="49.0" />
          </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.24742268041237114">
+                     <color>
+                        <Color red="0.12396442145109177" green="0.5337729454040527" blue="0.7236841917037964" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.42955326460481097">
+                     <color>
+                        <Color red="0.12960000336170197" green="0.5161208510398865" blue="0.7200000286102295" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.6769759450171822">
+                     <color>
+                        <Color red="0.7200000286102295" green="0.12960000336170197" blue="0.19331222772598267" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.8109965635738832">
+                     <color>
+                        <Color red="0.12960000336170197" green="0.7200000286102295" blue="0.2994992733001709" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.8762886597938144">
+                     <color>
+                        <Color red="0.12960000336170197" green="0.5231999754905701" blue="0.7200000286102295" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
       </Text>
       <Text layoutX="317.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin username  *  :" wrappingWidth="199.20343017578125">
          <font>
@@ -53,17 +92,17 @@
             <Font size="21.0" />
          </font>
       </Text>
-      <Text layoutX="324.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New username   :" wrappingWidth="164.00335693359375">
+      <Text layoutX="325.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New username      :" wrappingWidth="199.20343017578125">
          <font>
             <Font size="21.0" />
          </font>
       </Text>
-      <Text layoutX="324.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email   :" wrappingWidth="75.80250549316418">
+      <Text layoutX="325.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email                     :" wrappingWidth="199.20343017578125">
          <font>
             <Font size="21.0" />
          </font>
       </Text>
-      <Text layoutX="324.0" layoutY="435.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password   :" wrappingWidth="114.936767578125">
+      <Text layoutX="321.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password               :" wrappingWidth="186.4033813476562">
          <font>
             <Font size="21.0" />
          </font>
@@ -73,17 +112,17 @@
             <Font size="21.0" />
          </font>
       </Text>
-      <Text layoutX="320.0" layoutY="599.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NIC   :" wrappingWidth="63.73675537109375">
+      <Text layoutX="321.0" layoutY="598.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NIC                        :" wrappingWidth="186.4033813476562">
          <font>
             <Font size="21.0" />
          </font>
       </Text>
-      <Text layoutX="322.0" layoutY="651.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address   :" wrappingWidth="101.07000732421875">
+      <Text layoutX="323.0" layoutY="650.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address                 :" wrappingWidth="186.4033813476562">
          <font>
             <Font size="21.0" />
          </font>
       </Text>
-      <Text layoutX="321.0" layoutY="545.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone number   :" wrappingWidth="165.07012939453125">
+      <Text layoutX="321.0" layoutY="544.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone number       :" wrappingWidth="207.07012939453125">
          <font>
             <Font size="21.0" />
          </font>
@@ -103,12 +142,12 @@
             <Font name="Berlin Sans FB" size="25.0" />
          </font>
       </JFXButton>
-      <JFXTextField layoutX="496.0" layoutY="293.0" prefHeight="40.0" prefWidth="363.0" promptText="Enter your name here" unFocusColor="BLACK">
+      <JFXTextField layoutX="511.0" layoutY="291.0" prefHeight="40.0" prefWidth="363.0" promptText="Enter your name here" unFocusColor="BLACK">
          <font>
             <Font name="Century Schoolbook" size="18.0" />
          </font>
       </JFXTextField>
-      <JFXButton layoutX="676.0" layoutY="242.0" prefHeight="38.0" prefWidth="110.0" style="-fx-background-color: black;" text="Send" textFill="WHITE">
+      <JFXButton layoutX="676.0" layoutY="242.0" prefHeight="38.0" prefWidth="110.0" style="-fx-background-color: black;" text="Send" textFill="#0fd640">
          <font>
             <Font name="Berlin Sans FB" size="21.0" />
          </font>
@@ -118,32 +157,32 @@
             <Font size="21.0" />
          </font>
       </Text>
-      <JFXTextField alignment="CENTER" layoutX="487.0" layoutY="518.0" prefHeight="40.0" prefWidth="363.0" promptText="Enter your number here" unFocusColor="BLACK">
+      <JFXTextField alignment="CENTER" layoutX="511.0" layoutY="516.0" prefHeight="40.0" prefWidth="363.0" promptText="Enter your number here" unFocusColor="BLACK">
          <font>
             <Font size="18.0" />
          </font>
       </JFXTextField>
-      <JFXTextField layoutX="387.0" layoutY="574.0" prefHeight="40.0" prefWidth="363.0" promptText="Enter your NIC  here" unFocusColor="BLACK">
+      <JFXTextField layoutX="511.0" layoutY="570.0" prefHeight="40.0" prefWidth="363.0" promptText="Enter your NIC  here" unFocusColor="BLACK">
          <font>
             <Font size="18.0" />
          </font>
       </JFXTextField>
-      <JFXTextField layoutX="424.0" layoutY="626.0" prefHeight="40.0" prefWidth="363.0" promptText="Enter address here" unFocusColor="BLACK">
+      <JFXTextField layoutX="511.0" layoutY="622.0" prefHeight="40.0" prefWidth="363.0" promptText="Enter address here" unFocusColor="BLACK">
          <font>
             <Font size="18.0" />
          </font>
       </JFXTextField>
-      <JFXTextField alignment="CENTER" layoutX="442.0" layoutY="409.0" prefHeight="40.0" prefWidth="363.0" promptText="Enter your password here" unFocusColor="BLACK">
+      <JFXTextField alignment="CENTER" layoutX="511.0" layoutY="403.0" prefHeight="40.0" prefWidth="363.0" promptText="Enter your password here" unFocusColor="BLACK">
          <font>
             <Font size="18.0" />
          </font>
       </JFXTextField>
-      <JFXTextField alignment="CENTER" layoutX="511.0" layoutY="462.0" prefHeight="40.0" prefWidth="363.0" promptText="Re-type password" unFocusColor="BLACK">
+      <JFXTextField alignment="CENTER" layoutX="511.0" layoutY="459.0" prefHeight="40.0" prefWidth="363.0" promptText="Re-type password" unFocusColor="BLACK">
          <font>
             <Font size="18.0" />
          </font>
       </JFXTextField>
-      <JFXTextField alignment="CENTER" layoutX="406.0" layoutY="353.0" prefHeight="40.0" prefWidth="363.0" promptText="Enter your email here" unFocusColor="BLACK">
+      <JFXTextField alignment="CENTER" layoutX="511.0" layoutY="343.0" prefHeight="40.0" prefWidth="363.0" promptText="Enter your email here" unFocusColor="BLACK">
          <font>
             <Font size="18.0" />
          </font>
